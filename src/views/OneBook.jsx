@@ -8,7 +8,7 @@ function OneBook({ descriptions }) {
         <div className="overlay-inner">
           <button className="close"><i className="fasfa-times" /></button>
           <div className="inner-box">
-            <img src={descriptions.volumeInfo.imageLinks.thumbnail} alt="" />
+            <img src={descriptions.volumeInfo.imageLinks?.thumbnail} alt="" />
             <div className="info">
               <h1>{descriptions.volumeInfo.title}</h1>
               <h3>{descriptions.volumeInfo.authors}</h3>
